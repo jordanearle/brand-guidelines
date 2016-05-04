@@ -13,13 +13,13 @@ body{
   padding: 0px;}
 
 
-.Hero { background-image: linear-gradient(153deg, #EEEEEE 0%, #FFFFFF 95%); }
-.Blue { background-color: #346CA5; }
-.Green { background-color: #65B237; }
-.Pink { background-color: #c0392b; }
-.Black { background-color: #2c3e50; }
+.Hero {  height: 600px; background-image: linear-gradient(153deg, #EEEEEE 0%, #FFFFFF 95%); }
+.Blue {  height: 1050px; background-color: #ffffff; }
+.Green { height: 100vh; background-color: #65B237; }
+.Pink { height: 100vh; background-color: #c0392b; }
+.Black { height: 100vh; background-color: #2c3e50; }
 
-section{ height: 100vh;}
+section{ padding-top: 1.5em; overflow: none;}
 
 .LogoHeader {
   margin-left: 3%;
@@ -41,6 +41,71 @@ section{ height: 100vh;}
   width: 55%;
   margin-top: -7%;}
 
+.IDRect {
+    width: 207px;
+  	height: 59px;
+    background-image:url(../img/angledrect.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    padding-top: 8px;}
+
+.MonogramCaption1 {
+    width: 160px;
+    height: 230px;
+    display: inline-block;}
+
+.MonogramCaption {
+    width: 160px;
+    height: 230px;
+    display: inline-block;
+    margin-left: 8%;}
+
+.LightMonogramBox1 {
+    width: 160px;
+    height: 160px;
+    background-color: #f7f7f7;
+    display: inline-block;
+    position: relative;}
+
+.LightMonogramBox {
+    width: 160px;
+    height: 160px;
+    background-color: #f7f7f7;
+    display: inline-block;
+    position: relative;}
+
+.DarkMonogramBox1 {
+    width: 160px;
+    height: 160px;
+    background-color: #4DB2BD;
+    display: inline-block;
+    position: relative;}
+
+.DarkMonogramBox {
+    width: 160px;
+    height: 160px;
+    background-color: #2F3049;
+    display: inline-block;
+    position: relative;}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    width: 50%;
+    opacity: 0.2;}
+
+.UsageGuide1 {
+  width: 27%;
+  display: inline-block;
+  position: relative;}
+
+.UsageGuide {
+  width: 27%;
+  display: inline-block;
+  position: relative;
+  margin-left: 3%;}
+
   /** TYPOGRAPHY **/
 
 .Condensed {
@@ -53,4 +118,64 @@ section{ height: 100vh;}
   font-family: "gesta",sans-serif;
   color: #797979;
   font-size: 1.2em;
-  line-height: 1.5em;}
+  line-height: 1.5em;
+  max-width: 90%;}
+
+.IDRectText {
+  font-family: "gesta",sans-serif;
+  font-size: 1.4em;
+  color: #ffffff;
+  opacity: 0.9;
+  padding-left: 10px;}
+
+.Caption {
+  font-family: "gesta",sans-serif;
+  font-size: 1em;
+  color: #B0B0B0;
+  opacity: 0.9;
+  margin-left: -40%;
+  text-transform: uppercase;}
+
+.MonogramH2{
+  font-family: "gesta",sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  color: #A2A2A2;
+  font-weight: 400;}
+
+.MonogramP{
+  font-family: "gesta",sans-serif;
+  font-size: 1em;
+  text-align: left;
+  color: #A2A2A2;
+  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35em;
+  line-height: 1.5em;
+  padding-bottom: 1.3em;}
+
+.UsageHeader {
+  font-family: "gesta",sans-serif;
+  font-size: 1em;
+  color: #6D6D6D;
+  font-weight: 500;}
+
+.UsageP {
+  font-family: "gesta",sans-serif;
+  font-size: 1em;
+  color: #6D6D6D;
+  font-weight: 300;
+  line-height: 1.5em;
+  text-align: left;
+}
+
+/** IMAGES **/
+
+.monogramlogo {
+  position:absolute;
+  margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;}
