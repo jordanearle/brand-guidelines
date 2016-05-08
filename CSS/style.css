@@ -26,7 +26,9 @@ body{
 .Colour { height: 300px; background-color: #F4F4F4; }
 .Wordmark { height: 600px; background-color: #fff; }
 .Typography { height: 550px; background-color: #EFF1F1; }
-.Buttons { height: 100vh; background-color: #ffffff; }
+.Buttons { height: 250px; background-color: #ffffff; }
+.Images { height: 300px; background-color: #ffffff; }
+.End { height: 250px; background-color: #D0D0D0;}
 
 section{ padding-top: 1.5em; overflow: none;}
 
@@ -193,10 +195,76 @@ hr {
 .TypographyExp {
   width: 25%;
   display: inline-block;
-    margin-left: 5em;
-    margin-top: -220em;
+  margin-left: 5em;
+  margin-top: -220em;}
 
+.ButtonDark {
+  height: 60px;
+  width: 180px;
+  background-color: #4DB2BD;
+  text-align: center;
+  border-radius: 0.1em;
+  margin-left: 1em;
+  display: inline-block;}
+
+.ButtonDark:hover {
+  background-color: #20253F;
+  transition: background .25s ease-in-out;}
+
+.ButtonLight {
+  height: 60px;
+  width: 180px;
+  background-color: #F7F7F7;
+  text-align: center;
+  border-radius: 0.1em;
+  margin-left: 1em;
+  display: inline-block;}
+
+.ButtonLight:hover {
+  opacity: 0.6;
+  background-color: #9DD6DC;
+  transition: background .25s ease-in-out;}
+
+.TwitterIcon {
+  display: inline-block;
+  margin-bottom: -1em;
+  height: 60px;
+  width: 100px;
+  position: absolute;
+  margin-left: 1em;}
+
+.TwitterIcon:hover {
+  opacity: 0.6;
+  transition: background .25s ease-in-out;}
+
+
+.FBIcon {
+  display: inline-block;
+  margin-bottom: -1em;
+  height: 60px;
+  width: 100px;
+  position: absolute;
+  margin-left: 7em;}
+
+.FBIcon:hover {
+  opacity: 0.6;
+  transition: background .25s ease-in-out;}
+
+.LinkEx {
+  display: inline-block;
+  margin-left: 11em;}
+
+.ButtonRow {
+  margin-left: 18%;
+  margin-top: 1%;}
+
+.animatedcont {
+  width: 100%;
+  background-color: red;
+  height 200px;
 }
+
+
 
   /** TYPOGRAPHY **/
 
@@ -219,6 +287,14 @@ hr {
   color: #ffffff;
   opacity: 0.9;
   padding-left: 10px;}
+
+.IDRectText2 {
+  font-family: "gesta",sans-serif;
+  font-size: 1.3em;
+  color: #ffffff;
+  opacity: 0.9;
+  padding-left: 10px;
+}
 
 .Caption {
   font-family: "gesta",sans-serif;
@@ -323,6 +399,14 @@ hr {
   font-weight: 300;
   letter-spacing: 0.2em;}
 
+.EndQuote {
+  font-family: "gesta",sans-serif;
+  font-size:12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  opacity: 0.3;
+}
+
 .TypeHeader {
   font-family: "gesta",sans-serif;
   font-size: 1.2em;
@@ -339,16 +423,50 @@ hr {
   font-family: "gesta",sans-serif;
   font-size: 1.3em;
   font-weight: 400;
-  letter-spacing: 0.1em;
-}
+  letter-spacing: 0.1em;}
 
 .FontName {
   font-family: "gesta",sans-serif;
   font-size: 0.6em;
   color: #6D6D6D;
   font-weight: 200;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.05em;}
+
+.ButtonDarkText {
+  font-family: "gesta",sans-serif;
+  font-size: 1.4em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: #fff;
+  line-height: 60px;}
+
+.ButtonLightText {
+  font-family: "gesta",sans-serif;
+  font-size: 1.4em;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: #000;
+  line-height: 60px;}
+
+.LinkType {
+  font-family: "gesta",sans-serif;
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 1.5em;
 }
+
+a.LinkStyle  {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 2px solid #9DD6DC;}
+
+a.LinkStyle:hover  {
+  background: #9DD6DC;
+  Color: #fff;
+  border-bottom: 2px solid #9DD6DC;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  transition: background .25s ease-in-out;}
 
 /** IMAGES **/
 
@@ -360,7 +478,37 @@ hr {
     right: 0;
     bottom: 0;}
 
+.MonogramLogo3 {
+  margin-top: 1.5em;
+}
+
 .FontName2 {
   opacity: 0.7;
-  margin-top: 1em;
+  margin-top: 1em;}
+
+.Twitter {
+padding-top: 0.5em;}
+
+.Facebook {
+padding-top: 0.4em;}
+
+.PortfolioImage1 {
+display: inline-block;
+height: 170px;
+width: 350px;
+}
+
+.PortfolioImage1:hover {
+opacity: 0.6;
+transition: .5s ease-in-out;}
+
+.PortfolioImage2:hover {
+opacity: 0.6;
+transition: .5s ease-in-out;}
+
+.PortfolioImage2 {
+padding-left: 2em;
+display: inline-block;
+height: 170px;
+width: 350px;
 }
